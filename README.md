@@ -1,14 +1,10 @@
-<h1><Workflow/h1>
-<li>
-The user signs up and logs in to the application.
+<h2>🔄 Workflow</h2>
 
-After successful login, a JWT token is issued to authenticate the user.
-
-While authenticated, the user submits a comment.
-
-The comment is analyzed using TextBlob to determine whether it is positive or negative.
-
-The comment, sentiment result, and user information are stored in the sentiment analysis table.
-
-</li>
-
+<ul>
+  <li>The user signs up and logs in to the application.</li>
+  <li>After successful login, a <strong>JWT token</strong> is issued to authenticate the user.</li>
+  <li>While authenticated, the user submits a comment.</li>
+  <li>The comment is analyzed using <strong>TextBlob</strong> to determine whether it is positive or negative.</li>
+  <li>The comment, sentiment result, and user information are stored in the <strong>sentiment analysis table</strong>.</li>
+  <li>The sentiment analysis result returned by TextBlob is sent back in the API response.</li>
+</ul>
