@@ -1,5 +1,5 @@
-Workflow
-
+<h1><Workflow/h1>
+<li>
 The user signs up and logs in to the application.
 
 After successful login, a JWT token is issued to authenticate the user.
@@ -10,4 +10,5 @@ The comment is analyzed using TextBlob to determine whether it is positive or ne
 
 The comment, sentiment result, and user information are stored in the sentiment analysis table.
 
+</li>
 
