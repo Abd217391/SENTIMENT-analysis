@@ -10,4 +10,4 @@ The comment is analyzed using TextBlob to determine whether it is positive or ne
 
 The comment, sentiment result, and user information are stored in the sentiment analysis table.
 
-The sentiment analysis result returned by TextBlob is sent back in the API response.
+
